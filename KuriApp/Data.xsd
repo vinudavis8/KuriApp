@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Data" targetNamespace="http://tempuri.org/Data.xsd" xmlns:mstns="http://tempuri.org/Data.xsd" xmlns="http://tempuri.org/Data.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="Data" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="Data" msprop:Generator_UserDSName="Data">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="userPayments" msprop:Generator_TableClassName="userPaymentsDataTable" msprop:Generator_TableVarName="tableuserPayments" msprop:Generator_TablePropName="userPayments" msprop:Generator_RowDeletingName="userPaymentsRowDeleting" msprop:Generator_RowChangingName="userPaymentsRowChanging" msprop:Generator_RowEvHandlerName="userPaymentsRowChangeEventHandler" msprop:Generator_RowDeletedName="userPaymentsRowDeleted" msprop:Generator_UserTableName="userPayments" msprop:Generator_RowChangedName="userPaymentsRowChanged" msprop:Generator_RowEvArgName="userPaymentsRowChangeEvent" msprop:Generator_RowClassName="userPaymentsRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="division_name" msprop:Generator_ColumnVarNameInTable="columndivision_name" msprop:Generator_ColumnPropNameInRow="division_name" msprop:Generator_ColumnPropNameInTable="division_nameColumn" msprop:Generator_UserColumnName="division_name" type="xs:string" minOccurs="0" />
+              <xs:element name="kuri_name" msprop:Generator_ColumnVarNameInTable="columnkuri_name" msprop:Generator_ColumnPropNameInRow="kuri_name" msprop:Generator_ColumnPropNameInTable="kuri_nameColumn" msprop:Generator_UserColumnName="kuri_name" type="xs:string" minOccurs="0" />
+              <xs:element name="name" msprop:Generator_ColumnVarNameInTable="columnname" msprop:Generator_ColumnPropNameInRow="name" msprop:Generator_ColumnPropNameInTable="nameColumn" msprop:Generator_UserColumnName="name" type="xs:string" minOccurs="0" />
+              <xs:element name="received_amount" msprop:Generator_ColumnVarNameInTable="columnreceived_amount" msprop:Generator_ColumnPropNameInRow="received_amount" msprop:Generator_ColumnPropNameInTable="received_amountColumn" msprop:Generator_UserColumnName="received_amount" type="xs:string" minOccurs="0" />
+              <xs:element name="received_date" msprop:Generator_ColumnVarNameInTable="columnreceived_date" msprop:Generator_ColumnPropNameInRow="received_date" msprop:Generator_ColumnPropNameInTable="received_dateColumn" msprop:Generator_UserColumnName="received_date" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="auctionHistory" msprop:Generator_TableClassName="auctionHistoryDataTable" msprop:Generator_TableVarName="tableauctionHistory" msprop:Generator_TablePropName="auctionHistory" msprop:Generator_RowDeletingName="auctionHistoryRowDeleting" msprop:Generator_RowChangingName="auctionHistoryRowChanging" msprop:Generator_RowEvHandlerName="auctionHistoryRowChangeEventHandler" msprop:Generator_RowDeletedName="auctionHistoryRowDeleted" msprop:Generator_UserTableName="auctionHistory" msprop:Generator_RowChangedName="auctionHistoryRowChanged" msprop:Generator_RowEvArgName="auctionHistoryRowChangeEvent" msprop:Generator_RowClassName="auctionHistoryRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="division_name" msprop:Generator_ColumnVarNameInTable="columndivision_name" msprop:Generator_ColumnPropNameInRow="division_name" msprop:Generator_ColumnPropNameInTable="division_nameColumn" msprop:Generator_UserColumnName="division_name" type="xs:string" minOccurs="0" />
+              <xs:element name="kuri_name" msprop:Generator_ColumnVarNameInTable="columnkuri_name" msprop:Generator_ColumnPropNameInRow="kuri_name" msprop:Generator_ColumnPropNameInTable="kuri_nameColumn" msprop:Generator_UserColumnName="kuri_name" type="xs:string" minOccurs="0" />
+              <xs:element name="name" msprop:Generator_ColumnVarNameInTable="columnname" msprop:Generator_ColumnPropNameInRow="name" msprop:Generator_ColumnPropNameInTable="nameColumn" msprop:Generator_UserColumnName="name" type="xs:string" minOccurs="0" />
+              <xs:element name="auction_amount" msprop:Generator_ColumnVarNameInTable="columnauction_amount" msprop:Generator_ColumnPropNameInRow="auction_amount" msprop:Generator_ColumnPropNameInTable="auction_amountColumn" msprop:Generator_UserColumnName="auction_amount" type="xs:string" minOccurs="0" />
+              <xs:element name="auction_date" msprop:Generator_ColumnVarNameInTable="columnauction_date" msprop:Generator_ColumnPropNameInRow="auction_date" msprop:Generator_ColumnPropNameInTable="auction_dateColumn" msprop:Generator_UserColumnName="auction_date" type="xs:string" minOccurs="0" />
+              <xs:element name="auction_amount_payment_date" msprop:Generator_ColumnVarNameInTable="columnauction_amount_payment_date" msprop:Generator_ColumnPropNameInRow="auction_amount_payment_date" msprop:Generator_ColumnPropNameInTable="auction_amount_payment_dateColumn" msprop:Generator_UserColumnName="auction_amount_payment_date" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

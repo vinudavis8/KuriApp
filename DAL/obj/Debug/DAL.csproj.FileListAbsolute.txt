@@ -1,0 +1,5 @@
+c:\Users\vinud\documents\visual studio 2012\Projects\KuriApp\DAL\bin\Debug\DAL.dll
+c:\Users\vinud\documents\visual studio 2012\Projects\KuriApp\DAL\bin\Debug\DAL.pdb
+c:\Users\vinud\documents\visual studio 2012\Projects\KuriApp\DAL\obj\Debug\DAL.dll
+c:\Users\vinud\documents\visual studio 2012\Projects\KuriApp\DAL\obj\Debug\DAL.pdb
+C:\Users\vinud\documents\visual studio 2012\Projects\KuriApp\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
